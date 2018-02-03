@@ -1,0 +1,82 @@
+body {
+	margin: 0px;
+	padding: 50px;
+	background-image: url('achtergrond.jpg');
+	background-size:cover;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	background-attachment: fixed;
+	font-family:tahoma;
+	color:white;
+	font-size:23px;
+}
+#facade {
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background-color:rgba(0,0,0,0.7);
+	z-index:10;
+	position:fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+}
+
+#results {
+	border-color:rgb(20,20,50);
+	border-style:solid;
+	border-width:5px;
+	border-radius:10px;
+	padding:10px;
+	position:fixed;
+	width:700px;
+	height:500px;
+	background-color:rgb(10,10,30);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+	font-size:16px;
+	z-index:20;
+}
+#content {
+	margin: 30px auto auto auto;
+	width: 900px;
+	min-height:400px;
+	background-image: url(background.gif);
+	background-attachment: fixed;
+	border-color:rgba(0,0,0,0.95);
+	border-width:3px;
+	border-style:solid;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content_text {
+	margin:20px;
+	font-size:16px;
+}
+
+.formtext {
+	font-size:16px;
+	font-weight:bold;
+}
+
+input{
+	font-size:16px;
+	border-color:rgb(100,100,100);
+	padding:2px;
+}
+
+input:hover{
+	border-color:red;
+}
+
+input[type=radio]{
+	
+}
+h1 {
+	font-size:50px;
+}
